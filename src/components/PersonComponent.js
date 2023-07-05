@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react'
 
 function PersonComponent({ person }) {
-  useEffect(() => {
-    console.log("inside item component....!!!")
-  }, [])
   return (
     <li>
       <p>{person.id}</p>
